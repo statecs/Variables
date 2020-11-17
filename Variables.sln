@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variables", "Variables\Variables.csproj", "{7904707D-28EA-46E1-BDC9-F6738AFD95EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeConversion", "TypeConversion\TypeConversion.csproj", "{1FC5E56A-BB65-452A-9E20-BAB1D3B05272}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypeConversion", "TypeConversion\TypeConversion.csproj", "{1FC5E56A-BB65-452A-9E20-BAB1D3B05272}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "var", "var\var.csproj", "{F5E9226E-97AF-4058-BAB6-F3084BCEECFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1FC5E56A-BB65-452A-9E20-BAB1D3B05272}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FC5E56A-BB65-452A-9E20-BAB1D3B05272}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FC5E56A-BB65-452A-9E20-BAB1D3B05272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5E9226E-97AF-4058-BAB6-F3084BCEECFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5E9226E-97AF-4058-BAB6-F3084BCEECFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5E9226E-97AF-4058-BAB6-F3084BCEECFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5E9226E-97AF-4058-BAB6-F3084BCEECFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
