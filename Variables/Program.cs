@@ -35,6 +35,24 @@ namespace Variables
             House = "Stark";
 
             Console.WriteLine("Hello, " + FrstName + Lastname + "of House" + House);
+
+            bool IsWorking;
+            IsWorking = false; //Boolean values can only be set to true or false
+
+            Console.WriteLine(IsWorking);
+
+            int sum;
+            sum = 0;
+
+            int number1, number2;
+
+            number1 = 5;
+            number2 = 100;
+            sum = number1 + number2;
+
+            Console.WriteLine(sum); //The statement is on a separate line
+            Console.Write("The sum is " + sum); //One-line
+
         }
     }
 }
