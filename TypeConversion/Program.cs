@@ -14,9 +14,13 @@ namespace TypeConversion
 
             Console.WriteLine(accountNo); //Now it's 100
 
-            serialNo = Convert.ToInt32(anyNo); //Convert float to int32
+            serialNo = Convert.ToInt32(anyNo); //Convert float to int32 and round it to 4
 
-            Console.WriteLine(serialNo); // Round and convert to 4, int does not handle floating points
+            Console.WriteLine(serialNo);
+
+            serialNo = (int)anyNo; // will ignore rounding, convert to 3
+
+            Console.WriteLine(serialNo); 
         }
     }
 }
