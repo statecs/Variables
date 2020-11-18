@@ -27,6 +27,14 @@ namespace DataTypesInDepth
             Console.WriteLine(zMax);
 
             Console.WriteLine(zMin);
+
+            Console.WriteLine(typeof(int).IsPrimitive); //True
+            Console.WriteLine(typeof(float).IsPrimitive); //True
+            Console.WriteLine(typeof(double).IsPrimitive); //True
+            Console.WriteLine(typeof(char).IsPrimitive); //True
+
+            Console.WriteLine(typeof(decimal).IsPrimitive); //False
+            Console.WriteLine(typeof(string).IsPrimitive); //False
         }
     }
 }
