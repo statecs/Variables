@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "var", "var\var.csproj", "{F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypesInDepth", "DataTypesInDepth\DataTypesInDepth.csproj", "{600EF8A1-E57E-457A-9764-134DB9BD0D7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FloatingPointNumbers", "FloatingPointNumbers\FloatingPointNumbers.csproj", "{0D27E88E-43B0-4A2E-BE93-9A24670E55AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{600EF8A1-E57E-457A-9764-134DB9BD0D7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{600EF8A1-E57E-457A-9764-134DB9BD0D7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{600EF8A1-E57E-457A-9764-134DB9BD0D7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D27E88E-43B0-4A2E-BE93-9A24670E55AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D27E88E-43B0-4A2E-BE93-9A24670E55AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D27E88E-43B0-4A2E-BE93-9A24670E55AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D27E88E-43B0-4A2E-BE93-9A24670E55AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
