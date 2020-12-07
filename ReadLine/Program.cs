@@ -10,7 +10,7 @@ namespace ReadLine
 
             string name = Console.ReadLine(); //returns a string
 
-            Console.WriteLine("Welcome {0}", name);
+            Console.WriteLine("Welcome {0}", name); //placeholder
             Console.WriteLine("Welcome" + name + ", welcome back!"); //Concanate the name
         }
     }
