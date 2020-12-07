@@ -19,6 +19,10 @@ namespace DateTimeLecture
 
             Console.WriteLine(todayDate.AddDays(10)); // Will add 10 days from now
             Console.WriteLine(todayDate.AddYears(-6)); // Will remove 6 years from now
+
+            //Regular expression
+            string formattedDate = string.Format("Date is {0:yyyy MM d}", todayDateTime); //todayDateTime will be assigned in the placeholder {0} with format yyyy
+            Console.WriteLine(formattedDate); // Display Date is: this year, month and day
         }
     }
 }
