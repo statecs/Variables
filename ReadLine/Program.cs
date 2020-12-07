@@ -8,7 +8,10 @@ namespace ReadLine
         {
             Console.WriteLine("What is your name?");
 
-            Console.ReadLine();
+            string name = Console.ReadLine(); //returns a string
+
+            Console.WriteLine("Welcome {0}", name);
+            Console.WriteLine("Welcome" + name + ", welcome back!"); //Concanate the name
         }
     }
 }
