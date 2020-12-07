@@ -22,7 +22,7 @@ namespace DateTimeLecture
 
             //Regular expression
             string formattedDate = string.Format("Date is {0:yyyy MMMM dddd HH mm ss tt}", todayDateTime); //todayDateTime will be assigned in the placeholder {0} with format  YYYY = Year, MMMMM = Month, dddd = Day, HHH = Hour, mm = Minutes, ss = Seconds, tt = AM/PM
-            Console.WriteLine(formattedDate); // Display Date
+            Console.WriteLine(formattedDate); // Display Date.
         }
     }
 }
