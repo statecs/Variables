@@ -13,6 +13,12 @@ namespace DateTimeLecture
             DateTime todayDateTime = DateTime.Now; //Today date with current time
 
             Console.WriteLine("Date {0}, {1}, {2}, {3}", myDateUnassigned, myDate, todayDate, todayDateTime);
+            Console.WriteLine(todayDate.ToShortDateString()); // Will only display the date
+            Console.WriteLine(todayDate.ToShortTimeString()); // Will only display the time
+            Console.WriteLine(todayDate.ToLongDateString()); // Will show a different format, ex. Saturday, September 16, 2020
+
+            Console.WriteLine(todayDate.AddDays(10)); // Will add 10 days from now
+            Console.WriteLine(todayDate.AddYears(-6)); // Will remove 6 years from now
         }
     }
 }
