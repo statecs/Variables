@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadLine", "ReadLine\ReadLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArithmeticOperators", "ArithmeticOperators\ArithmeticOperators.csproj", "{35B26770-A9C3-4615-927D-88BB1B7CE543}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArithmeticOperatorsExercise", "ArithmeticOperatorsExercise\ArithmeticOperatorsExercise.csproj", "{2A11E06D-7CDC-419A-B1F7-7053F0816A78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{35B26770-A9C3-4615-927D-88BB1B7CE543}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35B26770-A9C3-4615-927D-88BB1B7CE543}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35B26770-A9C3-4615-927D-88BB1B7CE543}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A11E06D-7CDC-419A-B1F7-7053F0816A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A11E06D-7CDC-419A-B1F7-7053F0816A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A11E06D-7CDC-419A-B1F7-7053F0816A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A11E06D-7CDC-419A-B1F7-7053F0816A78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
