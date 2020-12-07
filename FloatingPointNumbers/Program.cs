@@ -15,9 +15,7 @@ namespace FloatingPointNumbers
             m_no = 1 / 3m;
 
             //Placeholder
-            Console.WriteLine("Float no. is {0}", f_no);
-            Console.WriteLine("Double no. is {0}", d_no);
-            Console.WriteLine("Decimal no. is {0}", m_no);
+            Console.WriteLine("Float no. is {0}, Double no. is {1}, Decimal no. is {2}", f_no, d_no, m_no);
         }
     }
 }
